@@ -14,7 +14,7 @@ conda activate graphssl
 Clone this repository.
 
 ```
-git clone https://github.com/paridhimaheshwari2708/GraphSSL.git
+git clone https://github.com/sara-ghavampour/graph-contrastive-learning.git
 cd GraphSSL/
 ```
 
@@ -75,5 +75,4 @@ For the same dataset, training the model end-to-end (without self-supervised pre
 python3 run_classification.py --save proteins_exp_finetuned_e2e  --dataset proteins --model gcn --train_data_percent 1.0
 ```
 
-## Tutorial
-We have also created a [Colab Notebook](https://colab.research.google.com/drive/1WyGiVd9z4TqimA6vN_yRNoQH9E1MmsCm?usp=sharing) which combines various techniques in self-supervised learning and provides an easy-to-use interface for training your own models.
+
