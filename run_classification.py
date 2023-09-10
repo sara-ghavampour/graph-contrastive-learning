@@ -124,7 +124,7 @@ def main(args):
 
 	best_train_loss, best_val_loss = float("inf"), float("inf")
 
-	logger = SummaryWriter(logdir = os.path.join("runs", args.save))
+	logger = SummaryWriter(logdir = os.path.join("runs_100", args.save))
 
 	best_valid_epoch = 0
 	for epoch in range(args.epochs):

@@ -119,7 +119,7 @@ def main(args):
 
 	best_train_loss, best_val_loss = float("inf"), float("inf")
 
-	logger = SummaryWriter(logdir = os.path.join("runs", args.save))
+	logger = SummaryWriter(logdir = os.path.join("runs_100", args.save))
 
 	for epoch in range(args.epochs):
 		train_loss = run(args, epoch, "train", train_loader, model, optimizer)
