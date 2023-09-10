@@ -33,10 +33,10 @@ For training a self-supervised model, we use the <code>run.py</code> script and 
 The options supported for above arguments are:
 | Argument      | Choices           |
 | ------------- |:-------------:|
-| dataset      | proteins, enzymes, collab ,reddit_binary, reddit_multi, imdb_binary, imdb_multi, dd, mutag, nci1 |
+| dataset      | proteins, enzymes, imdb_binary, imdb_multi, dd, mutag, nci1 |
 | model      | gcn, gin, resgcn, gat, graphsage, sgc |
 | loss | infonce, jensen_shannon |
-| augment_list | edge_perturbation, diffusion, diffusion_with_sample, node_dropping, random_walk_subgraph, node_attr_mask |
+| augment_list | edge_perturbation, node_dropping, random_walk_subgraph, node_attr_mask |
 
 As an example, run the following command to train a self-supervised model on the proteins dataset
 ```
