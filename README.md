@@ -1,6 +1,5 @@
 # Contrastive Learning for Graphs
-
-## Introduction
+Investigating Properties of Contrastive Learning in Deep Geometric Learning
 
 
 
